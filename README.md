@@ -1,30 +1,9 @@
-#Building a Production Ready Vert.x JSON API
+# RealWorld API Spec
 
-Vert.x is a polyglot, reactive toolkit that runs on the JVM.  It is _extremely_ fast and fun to use.
+If the backend is about to run on a different host/port than the frontend, make sure to handle `OPTIONS` too and return correct `Access-Control-Allow-Origin` and `Access-Control-Allow-Headers` (e.g. `Content-Type`).
 
-##What You Will Learn
+### Authentication Header:
 
-Lorem ipsum dolor sit amet
+`Authorization: Token jwt.token.here`
 
-##Prerequisites
-
-Lorem ipsum dolor sit amet
-
-###Environment Setup
-
-Lorem ipsum dolor sit amet
-
-###Project Setup
-
-Lorem ipsum dolor sit amet
-
-####Review the API docuementation
-
-Lorem ipsum dolor sit amet
-
-####Create a basic Vert.x project
-
-Lorem ipsum dolor sit amet
-
-####Run the Maven build
-First things first let's verify that we can build the empty project
+## JSON Objects returned by API:
